@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "navbar-enhancement"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Other
+        menu:
+          - about.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/EllaKaye/navbar-enhancement
+          - text: Report a Bug
+            url: https://github.com/EllaKaye/navbar-enhancement/issues
+
+
+format:
+  html:
+    theme:
+      light: theme-light.scss
+      dark: theme-dark.scss
+
+
+
+
